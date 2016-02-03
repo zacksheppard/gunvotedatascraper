@@ -8,10 +8,10 @@ var x = xray();
 
 var url = "https://votesmart.org/interest-group/122/rating/5070#.VrIFPmQrK2x";
 
-x(url, {
+x(url, 'table', [{
   name: 'td:nth-child(4)',
   score: 'td:nth-child(6)'
-})(function(err, td) {
+}])(function(err, td) {
   if(err) {
     console.log('Error' + err)
   } else {
