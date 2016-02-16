@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "x-ray": "^2.0.2",
-    "x-ray-phantom": "^1.0.1"
+    "x-ray-phantom": "^1.0.1",
+    "lodash": "4.2.1"
   }
 }
