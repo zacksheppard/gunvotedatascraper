@@ -8,4 +8,10 @@ Scraping scripts are in the `scrapers` directory. To run one, getBradyRating2009
 
 `node getBradyRating2009.js`
 
-The output will show in the terminal by default. To send it to a file instead, `node getBradyRating2009.js > bradyData2009.json`. On a Mac you can also copy it to the clipboard with `node getBradyRating2009.js pbcopy`
+The output will show in the terminal by default. To send it to a file instead, 
+
+`node getBradyRating2009.js > bradyData2009.json`. 
+
+On a Mac you can also copy it to the clipboard with 
+
+`node getBradyRating2009.js | pbcopy`
